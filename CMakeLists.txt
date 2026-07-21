@@ -261,7 +261,8 @@ if(X11_FOUND)
   unset(CMAKE_REQUIRED_LIBRARIES)
 endif()
 
-find_package(KDSingleApplication-qt${QT_VERSION_MAJOR} 1.1.0 REQUIRED)
+add_subdirectory(3rdparty/kdsingleapplication)
+#find_package(KDSingleApplication-qt${QT_VERSION_MAJOR} 1.1.0 REQUIRED)
 
 if(APPLE)
   find_library(SPARKLE Sparkle)

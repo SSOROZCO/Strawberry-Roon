@@ -49,5 +49,6 @@
         <file>text/ghosts.txt</file>
         <file>pictures/sidebar-background.png</file>
         <file>style/dynamicplaylistcontrols.css</file>
+        <file>roon.qss</file>
     </qresource>
 </RCC>
