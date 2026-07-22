@@ -1,5 +1,8 @@
-strawberry (9b6d4a7a-1.8_x86-64) 1.8_x86-64; urgency=low
+strawberry-roon (60550220-r1-1.8_x86-64) 1.8_x86-64; urgency=low
 
-  * Version 9b6d4a7a
+  * Strawberry-Roon release.
+  * Minimalist interface redesign.
+  * Updated icons and visual assets.
+  * Refined appearance inspired by Astra Linux Special Edition.
 
- -- Jonas Kvinge <jonas@jkvinge.net>  Mon, 20 Jul 2026 21:56:29 -0300
+ -- Sergio Sebastian Orozco <ssorozco22@gmail.com>  Wed, 22 Jul 2026 02:51:40 -0300
