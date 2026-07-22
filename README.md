@@ -17,8 +17,6 @@ A Minimalist Visual Refresh for Strawberry Music Player
 [![Patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/cw/SergioSebastianOrozco)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/cineflix)
 
-Strawberry-Roon: A Minimalist Visual Refresh for Strawberry Music Player
-
 Inspired by minimalist desktop interfaces and refined design principles, this project modernises Strawberry’s appearance while preserving its lightweight architecture, high performance, and powerful music management features valued by audiophiles and collectors.
 
 Originally forked from Clementine in 2018, Strawberry is developed in C++ using the Qt framework. Strawberry-Roon is not intended to introduce new playback features or imitate other players; instead, it focuses on delivering a cleaner, more contemporary visual identity while respecting the philosophy of the original project.
