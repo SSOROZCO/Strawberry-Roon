@@ -1,7 +1,7 @@
-Source: strawberry
+Source: strawberry-roon
 Section: sound
 Priority: optional
-Maintainer: Jonas Kvinge <jonas@jkvinge.net>
+Maintainer: Maintainer: Sergio Sebastian Orozco <ssorozco22@gmail.com>
 Build-Depends: debhelper-compat (= 12),
                git,
                make,
@@ -34,7 +34,7 @@ Build-Depends: debhelper-compat (= 12),
                libsparsehash-dev
 Standards-Version: 4.7.0
 
-Package: strawberry
+Package: strawberry-roon
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
@@ -44,9 +44,16 @@ Depends: ${shlibs:Depends},
          gstreamer1.0-plugins-good,
          gstreamer1.0-alsa,
          gstreamer1.0-pulseaudio
-Homepage: http://www.strawberrymusicplayer.org/
-Description: music player and music collection organizer
- Strawberry is a music player aimed at music collectors and audiophiles.
+Homepage: Homepage: https://github.com/SSOROZCO/Strawberry-Roon
+Description: Minimalist visual refresh for Strawberry Music Player
+ Strawberry-Roon is a community visual redesign of Strawberry Music Player.
+ .
+ It modernises the original interface while preserving Strawberry's
+ lightweight performance, functionality and development philosophy.
+ .
+ Inspired by minimalist desktop environments, it offers a cleaner,
+ more consistent visual experience without changing the core features
+ of the application.
  .
  Features:
   - Play and organize music

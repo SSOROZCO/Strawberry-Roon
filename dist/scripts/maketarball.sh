@@ -1,7 +1,7 @@
 #!/bin/bash
 
-name=strawberry
-version="1.2.24.0.9b6d4a7a"
+name=strawberry-roon
+version="1.2.24-r1"
 gitrev="ON"
 root=$(cd "${0%/*}/../.." && echo $PWD/${0##*/})
 root=`dirname "$root"`
