@@ -1,58 +1,63 @@
-# :strawberry: Strawberry Music Player [![Build Status](https://github.com/strawberrymusicplayer/strawberry/actions/workflows/build.yaml/badge.svg?branch=master)](https://github.com/strawberrymusicplayer/strawberry/actions)
-[![Sponsor](https://img.shields.io/badge/-Sponsor-green?logo=github)](https://github.com/sponsors/jonaski)
-[![Patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://patreon.com/jonaskvinge)
-[![PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jonaskvinge)
+#
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SSOROZCO/files/refs/heads/main/Strawberry-Roon.svg" width="220" alt="Strawberry-Roon">
+</p>
 
-Strawberry is a **music player and music collection organizer**, originally forked from *Clementine* in 2018.
-It’s written in **C++ using the Qt framework**, designed for **audiophiles and music collectors**.
+<h1 align="center">Strawberry-Roon</h1>
 
-![Screenshot of Strawberry Music Player](https://raw.githubusercontent.com/strawberrymusicplayer/strawberry/master/data/screenshot/screenshot.png)
+<p align="center">
+A Minimalist Visual Refresh for Strawberry Music Player
+</p>
 
----
+<p align="center"></p>
 
-## :globe_with_meridians: Resources
+[![Build Status](https://github.com/SSOROZCO/Strawberry-Roon/actions/workflows/build.yaml/badge.svg?branch=desarrollo-roon)](https://github.com/SSOROZCO/Strawberry-Roon/actions)
 
-- **Website:** https://www.strawberrymusicplayer.org
-- **Wiki:** https://wiki.strawberrymusicplayer.org
-- **Forum:** https://forum.strawberrymusicplayer.org
-- **GitHub:** https://github.com/strawberrymusicplayer/strawberry
-- **Latest builds:** https://builds.strawberrymusicplayer.org
-- **openSUSE Build Service:**
-  - Stable: https://build.opensuse.org/package/show/home:jonaski:strawberry/strawberry
-  - Unstable: https://build.opensuse.org/package/show/home:jonaski:strawberry-dev/strawberry
-- **Ubuntu PPAs:**
-  - Stable: https://launchpad.net/~jonaski/+archive/ubuntu/strawberry
-  - Unstable: https://launchpad.net/~jonaski/+archive/ubuntu/strawberry-unstable
-- **Translations:** https://crowdin.com/project/strawberrymusicplayer
+[![Sponsor](https://img.shields.io/badge/-Sponsor-green?logo=github)]( https://github.com/sponsors/SSOROZCO)
+[![Patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/cw/SergioSebastianOrozco)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/cineflix)
 
----
+Strawberry-Roon: A Minimalist Visual Refresh for Strawberry Music Player
 
-## :warning: Opening an Issue
+Inspired by minimalist desktop interfaces and refined design principles, this project modernises Strawberry’s appearance while preserving its lightweight architecture, high performance, and powerful music management features valued by audiophiles and collectors.
 
-Before creating a new GitHub issue:
+Originally forked from Clementine in 2018, Strawberry is developed in C++ using the Qt framework. Strawberry-Roon is not intended to introduce new playback features or imitate other players; instead, it focuses on delivering a cleaner, more contemporary visual identity while respecting the philosophy of the original project.
 
-1. **Read the [FAQ](https://wiki.strawberrymusicplayer.org/wiki/FAQ)**.
-2. **Search existing issues** to avoid duplicates. If one already exists, comment there with any additional information.
-3. **Use the [forum](https://forum.strawberrymusicplayer.org/)** for technical problems, discussions or feature suggestions — it’s better suited for back-and-forth conversation.
-4. **Feature requests are not accepted on GitHub.** Issues created for feature requests will be closed. You can still discuss ideas on the forum.
-5. **Flatpak users:** We do **not** maintain the Flatpak package. Report Flatpak-specific issues via [Flatpak support](https://flatpak.org/about/).
+![Screenshot of Strawberry Music Player](https://github.com/SSOROZCO/files/blob/68594632391939344c254fda29aba3706cd02310/Screenshot_20260721_215115.png)
 
 ---
+Project Vision
 
-## :moneybag: Sponsoring
+The initiative began with a simple idea: to refresh Strawberry’s interface without altering the qualities that make it exceptional. While early inspiration came from Roon’s clean layout, the final design direction was guided by the minimalist environment and restrained colour palette of Astra Linux Special Edition, which shaped many of the decisions.
+Objectives
 
-Strawberry is **free software released under the GPL**.
-If you enjoy using it, please consider **supporting development** through sponsorship or donation.
+    Modernise the interface while maintaining simplicity.
 
-**Sponsorship options:**
-1. [Patreon](https://www.patreon.com/jonaskvinge)
-2. [GitHub](https://github.com/sponsors/jonaski)
-3. [Ko-fi](https://ko-fi.com/jonaskvinge)
-4. [PayPal](https://paypal.me/jonaskvinge)
+    Preserve lightweight performance and stability.
 
-Supporting open-source developers helps ensure continued maintenance and improvements.
+    Ensure functional consistency across all elements.
 
----
+    Refine visual coherence with updated icons and layouts.
+
+    Respect the original project and its development philosophy.
+
+Design Philosophy
+
+Strawberry-Roon follows a clear and concise philosophy:
+
+    Keep Strawberry fast and lightweight.
+
+    Modernise the visual experience without unnecessary complexity.
+
+    Improve consistency across icons and interface elements.
+
+    Blend naturally with modern desktop environments.
+
+    Honour the principles of the original Strawberry project.
+
+Community Collaboration
+
+This redesign is conceived as a community-driven project. Anyone is welcome to build upon, adapt, and improve the work, ensuring Strawberry continues to evolve while remaining true to its core identity.
 
 ## :white_check_mark: Features
 
@@ -80,10 +85,7 @@ Supporting open-source developers helps ensure continued maintenance and improve
 
 ---
 
-:white_check_mark: Tested on **Linux**, **OpenBSD**, **FreeBSD**, **macOS**, and **Windows**.
-
-> **Note:** macOS and Windows releases are currently **available to sponsors only**.
-> A monthly sponsorship via [Patreon](https://www.patreon.com/jonaskvinge) grants direct access to new releases.
+:white_check_mark: Tested on **Linux**.
 
 ---
 
@@ -118,22 +120,33 @@ Also install GStreamer plugins **base**, **good**, and optionally **bad**, **ugl
 
 ---
 
-## :wrench: Build from Source
+## 🔧 Build from Source
 
-**Get the code:**
+Clone the repository:
 
-    git clone --recursive https://github.com/strawberrymusicplayer/strawberry
+```bash
+git clone --recursive https://github.com/SSOROZCO/Strawberry-Roon.git
+cd Strawberry-Roon
+```
 
-**Build and install:**
+Build and install:
 
-    cd strawberry
-    cmake -S . -B build
-    cmake --build build --parallel $(nproc)
-    sudo cmake --install build
-
-For building on Windows with Visual Studio 2022, see: :point_right: https://github.com/strawberrymusicplayer/strawberry-msvc-build-tools
+```bash
+cmake -S . -B build
+cmake --build build --parallel $(nproc)
+sudo cmake --install build
+```
 
 ---
+Versioning
+
+Strawberry-Roon follows the official Strawberry release cycle.
+
+Visual redesign releases append the suffix "-r1", "-r2", etc.
+
+Examples:
+
+9b6d4a7a-r1
 
 ## :package: Packaging status
 
