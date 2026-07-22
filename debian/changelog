@@ -1,8 +1,8 @@
-strawberry-roon (60550220-r1-1.8_x86-64) 1.8_x86-64; urgency=low
+strawberry-roon (beb80240-r1-1.8_x86-64) 1.8_x86-64; urgency=low
 
   * Strawberry-Roon release.
   * Minimalist interface redesign.
   * Updated icons and visual assets.
   * Refined appearance inspired by Astra Linux Special Edition.
 
- -- Sergio Sebastian Orozco <ssorozco22@gmail.com>  Wed, 22 Jul 2026 02:51:40 -0300
+ -- Sergio Sebastian Orozco <ssorozco22@gmail.com>  Wed, 22 Jul 2026 03:17:11 -0300
