@@ -1,8 +1,8 @@
 #!/bin/bash
 
 name=strawberry
-version="1.2.24.7.gcb7894c7f"
-gitrev="ON"
+version="1.2.26r2"
+gitrev="OFF"
 root=$(cd "${0%/*}/../.." && echo $PWD/${0##*/})
 root=`dirname "$root"`
 rootnoslash=`echo $root | sed "s/^\///"`
@@ -50,19 +50,15 @@ ${TAR} -cJf $name-$version.tar.xz \
     --exclude="*.kdev4" \
     --exclude=".vscode" \
     --exclude=".idea" \
+    --exclude=".cache" \
+    --exclude=".qtcreator" \
+    --exclude=".claude" \
     --exclude="$root/.github" \
-    --exclude="$root/.travis.yml" \
-    --exclude="$root/.circleci" \
-    --exclude="$root/Dockerfile" \
+    --exclude="$root/.coderabbit.yaml" \
+    --exclude="$root/crowdin.yml" \
     --exclude="$root/CMakeLists.txt.user" \
     --exclude="$root/.clang-format" \
     --exclude="$root/build" \
-    --exclude="$root/cmake-build-debug" \
-    --exclude="$root/zanata.xml" \
-    --exclude="$root/.zanata-cache" \
     --exclude="$root/debian/changelog" \
     --exclude="$root/dist/scripts/maketarball.sh" \
-    --exclude="$root/dist/macos/Info.plist" \
-    --exclude="$root/dist/windows/windres.rc" \
-    --exclude="$root/src/translations/translations.pot" \
     "$root"
