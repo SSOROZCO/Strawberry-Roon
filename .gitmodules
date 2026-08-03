@@ -1,0 +1,11 @@
+[submodule "3rdparty/kdsingleapplication"]
+	path = 3rdparty/kdsingleapplication
+	url = https://github.com/KDAB/KDSingleApplication.git
+	branch = master
+[submodule "3rdparty/qt6keychain"]
+	path = 3rdparty/qt6keychain
+	url = https://github.com/frankosterfeld/qtkeychain.git
+	branch = master
+[submodule "3rdparty/unicode"]
+	path = 3rdparty/unicode
+	url = https://github.com/unicode-org/icu.git
