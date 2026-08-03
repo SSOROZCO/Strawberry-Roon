@@ -1,7 +1,7 @@
 #!/bin/bash
 
 name=strawberry
-version="1.2.24.0.beb80240"
+version="1.2.24.7.gcb7894c7f"
 gitrev="ON"
 root=$(cd "${0%/*}/../.." && echo $PWD/${0##*/})
 root=`dirname "$root"`
