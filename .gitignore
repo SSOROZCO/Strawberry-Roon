@@ -4,3 +4,7 @@ src/build/
 src/.qtcreator/
 *.bak
 .qtcreator/
+build/
+src/build/
+*.deb
+/tmp/
