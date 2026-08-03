@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
-
+# --- TU VERSION FORZADA ---
+set(STRAWBERRY_VERSION "1.2.26-r2")
+#
 project(strawberry C CXX)
 
 if(APPLE)
@@ -577,6 +579,8 @@ set(SOURCES
   src/analyzer/analyzercontainer.cpp
   src/analyzer/blockanalyzer.cpp
   src/analyzer/boomanalyzer.cpp
+  src/analyzer/roonanalyzer.cpp
+  src/analyzer/dorroughanalyzer.cpp
   src/analyzer/turbineanalyzer.cpp
   src/analyzer/sonogramanalyzer.cpp
   src/analyzer/waverubberanalyzer.cpp
@@ -897,6 +901,8 @@ set(HEADERS
   src/analyzer/analyzercontainer.h
   src/analyzer/blockanalyzer.h
   src/analyzer/boomanalyzer.h
+  src/analyzer/roonanalyzer.h
+  src/analyzer/dorroughanalyzer.h
   src/analyzer/turbineanalyzer.h
   src/analyzer/sonogramanalyzer.h
   src/analyzer/waverubberanalyzer.h
